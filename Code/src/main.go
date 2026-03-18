@@ -7,7 +7,7 @@ import (
 func main() {
 
 	// read the data and tokenize the
-	path := "C:/Users/myrkul/Documents/TxtClass/Code/dataset/corpus_AGNews.csv"
+	path := "<path/to/corpus_AGNews.csv"
 	Documents := TokenizeDataset(path)
 	vocab := InitVocab(Documents)
 	ShuffelDataset(Documents)
