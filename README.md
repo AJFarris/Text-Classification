@@ -8,7 +8,6 @@ Fortunately for us, classifying text is literally a subfield of <b>Natural Langu
 
 <H2>To start, we need a (Weighted) Bag o' Words👜</H2>
 Last time I checked, computers still don't speak English natively. So we need a computer-friendly way to represent text. For that, we can use a <b>Bag-of-Words</b>b> approach.  It starts by making a list of the unique words in the dataset. Consider it a <b>vocabulary</b>b> that holds all the words the model knows without any context. Since computers don't understand grammar or sentence structure, we can treat each document like a big bag of unordered words. We can then represent each document by the words in the model's vocabulary and the number of times they appear in the given document/bag. Say we have the following vocabulary:
-z
 
 	"where","the","prime","minister","makes","bacon","on","tuesday"
 
